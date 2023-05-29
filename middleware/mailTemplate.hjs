@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Verify Your Learnoda Account</title>
+</head>
+
+<body>
+
+
+<h2>Hello {{name}} </h2><br/><br/>
+
+           
+            <p> This is a notice that an invoice has been generated on {{Dates}}  </p> <br/>
+           
+            <h3>Personal Information</h3><br/>
+            <p>FullName : {{FullName}}</p><br/>
+            <p>Email : {{email}}</p><br/>
+            <p>City : {{city}}</p><br/>
+            <p>Country : {{country}}</p><br/>
+            <p>Phone : {{phone}}</p><br/>
+            
+            <p>Vin Number : {{vinNo}}</p><br/>
+
+
+            <p> To download and print, please click here : <a href={{invoiceLink}}>Download Invoice</a> </p><br/>
+            <p> For further assistance, please click here : <a href={{chatLink}}>Live Chat</a> </p><br/><br/>
+
+           <p>  If you believe you are receiving this email in error, please contact support for further assistance.</p><br/>
+
+            <p> Thank you! </p><br/>
+
+        <p> The WAC Team </p>.
+         
+
+
+
+
+</body>
+
+</html>
